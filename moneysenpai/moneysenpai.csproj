@@ -12,10 +12,11 @@
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
-    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidUseManagedDesignTimeResourceGenerator>False</AndroidUseManagedDesignTimeResourceGenerator>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -83,12 +84,17 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="loan_calculator.cs" />
+    <Compile Include="investment_tips.cs" />
+    <Compile Include="saving_tips.cs" />
+    <Compile Include="expense_calculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
-    <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="packages.config" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="savings.html" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -98,6 +104,22 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\layout\saving_tips.axml" />
+    <AndroidResource Include="Resources\layout\expense_calculator.axml" />
+    <AndroidResource Include="Resources\layout\investment_tips.axml" />
+    <AndroidResource Include="Resources\layout\loan_calculator.axml" />
+    <AndroidResource Include="Resources\drawable\homescreen.jpg" />
+    <AndroidResource Include="Resources\mipmap-hdpi\homescreen.jpg" />
+    <AndroidResource Include="Resources\mipmap-mdpi\homescreen.jpg" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\homescreen.jpg" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\homescreen.jpg" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\homescreen.jpg" />
+    <AndroidResource Include="Resources\mipmap-hdpi\money_senpai_icon.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\money_senpai_icon.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\money_senpai_icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\money_senpai_icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\money_senpai_icon.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

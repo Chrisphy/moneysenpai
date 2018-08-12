@@ -1,28 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:minWidth="25px"
-    android:minHeight="25px">
-    <Button
-        android:text="Button"
-        android:layout_width="match_parent"
-        android:layout_height="130dp"
-        android:id="@+id/button1" />
-    <Button
-        android:text="Button2"
-        android:layout_width="match_parent"
-        android:layout_height="130dp"
-        android:id="@+id/button2" />
-    <Button
-        android:text="Button2"
-        android:layout_width="match_parent"
-        android:layout_height="130dp"
-        android:id="@+id/button2" />
-    <Button
-        android:text="Button2"
-        android:layout_width="match_parent"
-        android:layout_height="130dp"
-        android:id="@+id/button2" />
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <Button
+                android:text="Expense Calculator "
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/button_expense"
+                android:background="#ff69f0ae"
+                android:textColor="#ff212121" />
+            <Button
+                android:text="Saving Tips"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/button_saving"
+                android:background="#ff00e676"
+                android:textColor="#ff212121" />
+            <Button
+                android:text="Investment Tips"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/button_investment"
+                android:background="#ff00c853"
+                android:textColor="#ff212121" />
+            <Button
+                android:text="Loan Calculator"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/button_loan"
+                android:background="#ff43a047"
+                android:textColor="#ff212121" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="680px"
+                android:id="@+id/imageView1"
+                android:src="@drawable/homescreen"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

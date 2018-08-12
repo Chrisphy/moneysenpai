@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffffff">
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="114.5dp"
+                android:id="@+id/textview_loan"
+                android:gravity="center"
+                android:textColor="#ff263238" />
+            <TextView
+                android:text="Enter your Mortage"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="47.0dp"
+                android:id="@+id/textView2"
+                android:gravity="center"
+                android:textColor="#ff263238" />
+            <EditText
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="62.5dp"
+                android:id="@+id/mortage_input"
+                android:textColor="#ff263238"
+                android:gravity="center"
+                android:background="#ff616161" />
+            <TextView
+                android:text="Enter your Loan Term"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="47.0dp"
+                android:id="@+id/textView2"
+                android:gravity="center"
+                android:textColor="#ff263238" />
+            <EditText
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="62.5dp"
+                android:id="@+id/loanterm_input"
+                android:textColor="#ff263238"
+                android:gravity="center"
+                android:background="#ff616161" />
+            <TextView
+                android:text="Enter your Interest Rate"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="47.0dp"
+                android:id="@+id/textView2"
+                android:gravity="center"
+                android:textColor="#ff263238" />
+            <EditText
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="62.5dp"
+                android:id="@+id/interest_input"
+                android:textColor="#ff263238"
+                android:gravity="center"
+                android:background="#ff616161" />
+            <TextView
+                android:text="Enter your Monthly Repayment Amount"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="47.0dp"
+                android:id="@+id/textView2"
+                android:gravity="center"
+                android:textColor="#ff263238" />
+            <EditText
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="62.5dp"
+                android:id="@+id/repayment_input"
+                android:textColor="#ff263238"
+                android:gravity="center"
+                android:background="#ff616161" />
+            <Button
+                android:text="Calculate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/calculate_loan_button"
+                android:background="#ff69f0ae" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
